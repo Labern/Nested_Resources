@@ -2,6 +2,25 @@
 
 <%= render @post %>
 
+<hr />
+<h1>Comments</h1>
+<% @post.comments.each do |comment| %>
+  <%= comment.name %>: <%= comment.content %>
+  <%= link_to "Edit comment", edit_post_comment_path(comment) %>
+<% end %>
+
+<div id="new-comment">
+  <%= form_with model: [@post, @post.comments.build] do |form| %>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+
+    <%= form.label :content %>
+    <%= form.text_area :content %>
+
+    <%= form.submit %>
+  <% end %>
+</div>
+
 <div>
   <%= link_to "Edit this post", edit_post_path(@post) %> |
   <%= link_to "Back to posts", posts_path %>
