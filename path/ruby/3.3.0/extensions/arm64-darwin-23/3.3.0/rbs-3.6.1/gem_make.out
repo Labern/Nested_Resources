@@ -1,0 +1,27 @@
+current directory: /Users/labern/Developer/Rails/rails-8-has-many/path/ruby/3.3.0/gems/rbs-3.6.1/ext/rbs_extension
+/Users/labern/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+checking for whether -std=gnu99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/labern/Developer/Rails/rails-8-has-many/path/ruby/3.3.0/gems/rbs-3.6.1/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20241108-38510-uv1pxo sitelibdir\=./.gem.20241108-38510-uv1pxo clean
+
+current directory: /Users/labern/Developer/Rails/rails-8-has-many/path/ruby/3.3.0/gems/rbs-3.6.1/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20241108-38510-uv1pxo sitelibdir\=./.gem.20241108-38510-uv1pxo
+compiling constants.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+compiling parser.c
+compiling parserstate.c
+compiling ruby_objs.c
+compiling unescape.c
+linking shared-object rbs_extension.bundle
+
+current directory: /Users/labern/Developer/Rails/rails-8-has-many/path/ruby/3.3.0/gems/rbs-3.6.1/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20241108-38510-uv1pxo sitelibdir\=./.gem.20241108-38510-uv1pxo install
+/opt/homebrew/bin/ginstall -c -m 0755 rbs_extension.bundle ./.gem.20241108-38510-uv1pxo
+
+current directory: /Users/labern/Developer/Rails/rails-8-has-many/path/ruby/3.3.0/gems/rbs-3.6.1/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20241108-38510-uv1pxo sitelibdir\=./.gem.20241108-38510-uv1pxo clean

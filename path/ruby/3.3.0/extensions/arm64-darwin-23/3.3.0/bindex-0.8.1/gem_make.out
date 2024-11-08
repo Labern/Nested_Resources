@@ -1,0 +1,18 @@
+current directory: /Users/labern/Developer/Rails/rails-8-has-many/path/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/labern/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/labern/Developer/Rails/rails-8-has-many/path/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241108-34876-i7lywu sitelibdir\=./.gem.20241108-34876-i7lywu clean
+
+current directory: /Users/labern/Developer/Rails/rails-8-has-many/path/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241108-34876-i7lywu sitelibdir\=./.gem.20241108-34876-i7lywu
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/labern/Developer/Rails/rails-8-has-many/path/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241108-34876-i7lywu sitelibdir\=./.gem.20241108-34876-i7lywu install
+/opt/homebrew/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20241108-34876-i7lywu/skiptrace/internal
+
+current directory: /Users/labern/Developer/Rails/rails-8-has-many/path/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241108-34876-i7lywu sitelibdir\=./.gem.20241108-34876-i7lywu clean
